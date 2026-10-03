@@ -1,0 +1,22 @@
+
+# Install a package
+# pip install requests
+
+# Install specific version
+# pip install requests==2.28.0
+
+# Install multiple packages
+# pip install pandas numpy matplotlib
+
+"""
+pip freeze > requirements.txt
+            |
+            
+This creates a file like:
+
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.6
+requests==2.31.0
+urllib3==2.2.0
+"""
